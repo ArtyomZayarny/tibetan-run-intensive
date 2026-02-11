@@ -4,22 +4,22 @@ import { FadeInView } from "@/components/ui/FadeInView";
 
 const archetypes = [
   {
-    icon: "🦁",
+    image: "/images/lion.png",
     title: "Лев",
     description: "Опора, благородство, аристократизм тела и духа.",
   },
   {
-    icon: "🦢",
+    image: "/images/swan.png",
     title: "Лебедь",
     description: "Чистота, артистизм, тонкость восприятия.",
   },
   {
-    icon: "🐅",
+    image: "/images/tiger.png",
     title: "Тигр",
     description: "Внутренняя динамика и сила пути.",
   },
   {
-    icon: "🦅",
+    image: "/images/eagle.png",
     title: "Орёл",
     description: "Альтруизм, совесть, свобода.",
   },
@@ -43,7 +43,7 @@ export function Archetypes() {
             <FadeInView key={a.title} className="h-full">
               <ArchetypeCard
                 className="h-full"
-                icon={a.icon}
+                image={a.image}
                 title={a.title}
                 description={a.description}
               />
