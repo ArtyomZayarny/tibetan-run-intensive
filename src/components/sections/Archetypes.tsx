@@ -40,8 +40,9 @@ export function Archetypes() {
 
         <div className="grid gap-6 sm:grid-cols-2">
           {archetypes.map((a) => (
-            <FadeInView key={a.title}>
+            <FadeInView key={a.title} className="h-full">
               <ArchetypeCard
+                className="h-full"
                 icon={a.icon}
                 title={a.title}
                 description={a.description}
