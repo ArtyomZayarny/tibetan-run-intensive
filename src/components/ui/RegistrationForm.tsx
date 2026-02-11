@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const inputClass =
-  "w-full rounded-lg border border-gold-200 bg-cream px-4 py-3 text-brown placeholder:text-brown-lighter/60 outline-none transition-colors focus:border-gold-400 focus:ring-2 focus:ring-gold-200";
+  "w-full rounded-lg border border-gold-200/40 bg-sand px-4 py-3 text-brown placeholder:text-brown-lighter/80 outline-none transition-colors focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30";
 
 export function RegistrationForm() {
   const router = useRouter();
@@ -91,8 +91,8 @@ export function RegistrationForm() {
         type="submit"
         disabled={loading}
         className={cn(
-          "w-full rounded-lg bg-gold-400 px-8 py-4 font-semibold uppercase tracking-widest text-brown",
-          "transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-300 hover:shadow-lg",
+          "w-full rounded-lg bg-gold-400 px-8 py-4 font-semibold uppercase tracking-widest text-dark-text",
+          "transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-300 hover:shadow-[0_4px_20px_rgba(228,181,68,0.3)]",
           "disabled:pointer-events-none disabled:opacity-60"
         )}
       >

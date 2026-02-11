@@ -6,7 +6,7 @@ export function GiftPrinciple() {
     <section className="bg-cream-dark py-24 md:py-32">
       <Container>
         <FadeInView>
-          <div className="rounded-2xl border border-gold-300/40 bg-gradient-to-br from-gold-50 to-cream p-8 md:p-12">
+          <div className="rounded-2xl border border-gold-300/30 bg-gradient-to-br from-sand to-cream p-8 md:p-12 shadow-[0_0_30px_rgba(228,181,68,0.08)]">
             <h2 className="mb-8 text-center text-3xl font-bold text-gold-600 md:text-4xl">
               Принцип Дара
             </h2>

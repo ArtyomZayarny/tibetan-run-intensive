@@ -14,7 +14,7 @@ export function ArchetypeCard({
   return (
     <div
       className={cn(
-        "rounded-xl border border-gold-200 border-l-4 border-l-gold-600 bg-white/80 p-6 shadow-md shadow-gold-100/50",
+        "rounded-xl border border-gold-200/30 border-l-4 border-l-gold-400 bg-sand p-6 shadow-[0_0_20px_rgba(228,181,68,0.08)] hover:shadow-[0_0_30px_rgba(228,181,68,0.15)] transition-shadow",
         className
       )}
     >

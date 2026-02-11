@@ -27,7 +27,7 @@ export default function SuccessPage() {
             href={telegramUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-lg bg-gold-400 px-12 py-4 font-semibold uppercase tracking-widest text-brown transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-300 hover:shadow-lg"
+            className="inline-block rounded-lg bg-gold-400 px-12 py-4 font-semibold uppercase tracking-widest text-dark-text transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-300 hover:shadow-[0_4px_20px_rgba(228,181,68,0.3)]"
           >
             Войти в группу
           </a>

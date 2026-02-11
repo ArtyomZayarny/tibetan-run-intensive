@@ -36,7 +36,7 @@ export function Solution() {
         <div className="space-y-12">
           {steps.map((step) => (
             <FadeInView key={step.number}>
-              <div className="rounded-xl border border-gold-200/50 bg-cream p-8">
+              <div className="rounded-xl border border-gold-200/30 bg-sand p-8 shadow-[0_0_20px_rgba(228,181,68,0.06)]">
                 <h3 className="mb-4 text-xl font-bold text-gold-600 md:text-2xl">
                   <span className="mr-2 text-gold-400">{step.number}.</span>
                   {step.title}

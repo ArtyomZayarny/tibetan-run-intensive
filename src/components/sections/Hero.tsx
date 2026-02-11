@@ -21,7 +21,7 @@ export function Hero() {
       </video>
 
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 z-[2] bg-black/40" />
+      <div className="absolute inset-0 z-[2] bg-gradient-to-b from-black/60 via-black/40 to-[#0f0f1a]" />
 
       {/* Content */}
       <Container className="relative z-10 text-center">
