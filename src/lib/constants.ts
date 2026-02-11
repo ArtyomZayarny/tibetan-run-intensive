@@ -1,4 +1,5 @@
 // Target date: 15 February 2026, 18:00 Moscow time (UTC+3)
+// Site constants
 export const TARGET_DATE = new Date("2026-02-15T18:00:00+03:00");
 
 export const TELEGRAM_URL =
