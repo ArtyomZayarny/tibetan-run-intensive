@@ -3,7 +3,7 @@ import { FadeInView } from "@/components/ui/FadeInView";
 
 export function GiftPrinciple() {
   return (
-    <section className="bg-cream-dark py-24 md:py-32">
+    <section className="bg-gradient-to-b from-cream-dark to-[#182540] py-24 md:py-32">
       <Container>
         <FadeInView>
           <div className="rounded-2xl border border-gold-300/30 bg-gradient-to-br from-sand to-cream p-8 md:p-12 shadow-[0_0_30px_rgba(228,181,68,0.08)]">

@@ -27,7 +27,7 @@ const archetypes = [
 
 export function Archetypes() {
   return (
-    <section className="py-24 md:py-32">
+    <section className="bg-gradient-to-b from-[#1e2d42] to-cream py-24 md:py-32">
       <Container>
         <FadeInView>
           <h2 className="mb-4 text-center text-3xl font-bold text-gold-600 md:text-4xl">

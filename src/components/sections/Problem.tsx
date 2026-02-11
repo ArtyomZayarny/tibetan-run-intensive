@@ -3,7 +3,7 @@ import { FadeInView } from "@/components/ui/FadeInView";
 
 export function Problem() {
   return (
-    <section id="problem" className="py-24 md:py-32">
+    <section id="problem" className="bg-gradient-to-b from-cream to-[#1e2d42] py-24 md:py-32">
       <Container>
         <FadeInView>
           <h2 className="mb-10 text-center text-3xl font-bold text-gold-600 md:text-4xl">

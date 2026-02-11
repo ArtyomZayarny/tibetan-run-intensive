@@ -24,7 +24,7 @@ const schedule = [
 
 export function Logistics() {
   return (
-    <section className="py-24 md:py-32">
+    <section className="bg-gradient-to-b from-cream to-[#1e2d42] py-24 md:py-32">
       <Container>
         <FadeInView>
           <h2 className="mb-12 text-center text-3xl font-bold text-gold-600 md:text-4xl">

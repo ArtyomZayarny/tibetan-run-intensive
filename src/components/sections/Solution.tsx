@@ -21,7 +21,7 @@ const steps = [
 
 export function Solution() {
   return (
-    <section className="bg-cream-dark py-24 md:py-32">
+    <section className="bg-gradient-to-b from-cream-dark via-[#182540] to-cream-dark py-24 md:py-32">
       <Container>
         <FadeInView>
           <h2 className="mb-6 text-center text-3xl font-bold text-gold-600 md:text-4xl">
