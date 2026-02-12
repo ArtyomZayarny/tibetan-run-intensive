@@ -16,7 +16,7 @@ const archetypes = [
   {
     image: "/images/tiger.png",
     title: "Тигр",
-    description: "Внутренняя динамика и сила пути.",
+    description: "Различающий разум, храбрость, динамика.",
   },
   {
     image: "/images/eagle.png",
