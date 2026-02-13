@@ -96,7 +96,7 @@ export function RegistrationForm() {
           "disabled:pointer-events-none disabled:opacity-60"
         )}
       >
-        {loading ? "Отправка..." : "Принять Дар"}
+        {loading ? "Отправка..." : "Я принимаю Дар"}
       </button>
     </form>
   );

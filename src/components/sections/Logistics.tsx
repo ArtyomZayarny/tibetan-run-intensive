@@ -3,22 +3,22 @@ import { FadeInView } from "@/components/ui/FadeInView";
 
 const schedule = [
   {
-    date: "15.02 | 18:00",
+    date: "Воскресенье, 15.02 — 18:00",
     title: "Установочная сессия в Zoom.",
     description:
-      "Формирование группы и ключевые настройки. Вклад каждого ценен, поэтому курс нельзя купить — только получить в Дар.",
+      "Формирование группы и ключевые настройки. Ваша включённость определяет общий результат.",
   },
   {
-    date: "6 дней",
+    date: "Следующие 6 дней",
     title: "Практика в ритме жизни.",
     description:
-      "Короткие видео-месседжи и задания на день (1-2 часа). Тренировка внимания и осознанности в потоке ваших обычных дел.",
+      "Ежедневные короткие видео и задания. Работа с вниманием, энергией и телом. Запланируйте 1,5–2 часа в день для фокусированной практики.",
   },
   {
-    date: "День 7",
+    date: "Финальный 7-й день",
     title: "Завершение и итоги.",
     description:
-      "Финальная встреча и фиксация нового состояния. Каждый день мы ждем от вас обратную связь для продолжения пути.",
+      "Общая встреча, подведение итогов и закрепление состояния «внутреннего лада».",
   },
 ] as const;
 
@@ -28,7 +28,7 @@ export function Logistics() {
       <Container>
         <FadeInView>
           <h2 className="mb-12 text-center text-3xl font-bold text-gold-600 md:text-4xl">
-            Как проходит интенсив
+            Как это будет проходить
           </h2>
         </FadeInView>
 
@@ -36,7 +36,7 @@ export function Logistics() {
           {schedule.map((item) => (
             <FadeInView key={item.date}>
               <div className="flex flex-col gap-3 md:flex-row md:gap-8">
-                <div className="shrink-0 text-sm font-bold uppercase tracking-wider text-gold-600 md:w-32 md:pt-1">
+                <div className="shrink-0 text-sm font-bold uppercase tracking-wider text-gold-600 md:w-48 md:pt-1">
                   {item.date}
                 </div>
                 <div>
@@ -54,7 +54,9 @@ export function Logistics() {
 
         <FadeInView>
           <p className="mt-12 text-center text-sm text-brown-lighter">
-            Это не будет просто. Но мы будем поддерживать друг друга.
+            Важно понимать: вам потребуется внимание, время и энергия на
+            выполнение заданий и их проживание. Практика не будет вырывать вас из
+            повседневной жизни, но потребует серьёзного отношения и дисциплины.
           </p>
         </FadeInView>
       </Container>
